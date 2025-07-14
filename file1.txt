@@ -6,5 +6,7 @@ conflixt created line5
 conflixt created line6
 conflict created line7
 conflixt created line8
+new line added 8a
+new line added 8b
 new line added lin9
 new line added line10
