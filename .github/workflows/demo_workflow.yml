@@ -4,13 +4,15 @@ on:
  push #event
 
 jobs:
- echo-statement: #job name
+ build: #job name
    runs-on: ubuntu-latest #github hosted runner
    steps:
-    - name: Echo
-      run: echo "Welcome to first workiflow"
+    - name: code checkoutr
+      run: exit 1
+    
       
- display-info: #job name
+ deploy: #job name
+    needs: build
     runs-on: windows-latest
     steps:
      - name: Echo
