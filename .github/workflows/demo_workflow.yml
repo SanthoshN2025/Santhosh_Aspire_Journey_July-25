@@ -7,9 +7,10 @@ jobs:
  build: #job name
    runs-on: ubuntu-latest #github hosted runner
    steps:
-    - name: code checkoutr
+    - name: code checkout
       run: exit 1
-    
+    - name: Setup
+      run: echo "run secnond step"
       
  deploy: #job name
     needs: build
