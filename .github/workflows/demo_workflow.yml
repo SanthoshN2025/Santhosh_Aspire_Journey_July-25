@@ -8,7 +8,7 @@ jobs:
    runs-on: ubuntu-latest #github hosted runner
    steps:
     - name: code checkout
-      run: exit 1
+      run: echo "runfirst setp"
     - name: Setup
       run: echo "run secnond step"
       
