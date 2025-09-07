@@ -4,7 +4,7 @@ on:
  push #event
 
 jobs:
-echo-statement: #job name
+ echo-statement: #job name
    runs-on: ubuntu-latest #github hosted runner
    steps:
     - name: Echo
